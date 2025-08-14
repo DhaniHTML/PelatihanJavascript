@@ -18,10 +18,10 @@ let angka1 = 10;
 let angka2 = 0;
 
 try {
-    // Ganti angka2 jadi angka22 untuk contoh kasus error variabel tidak dikenali
     bagiAngka(angka1, angka2);
 } catch (error) {
     console.log("Error: Variabel tidak dikenali");
 }
+
 
 console.log("Program selesai.");
